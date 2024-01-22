@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.info-header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-image {
+    width: 240px;
+    height: 160px;
+    align-self: center;
+    
+}
+
+.header-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20%;
+}
