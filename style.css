@@ -12,6 +12,7 @@ body {
     padding: 20px;
     background-color: #1f2937;
     color: white;
+    margin-bottom: 5%;
 }
 
 .navigation ul {
@@ -21,9 +22,9 @@ body {
 }
 
 .info-header {
+    display: flex;
     background-color: #1f2937;
     color: white;
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -32,7 +33,7 @@ body {
 .header-image {
     width: 240px;
     height: 160px;
-    align-self: flex-end;
+    align-self: center;
     
     
 }
@@ -45,14 +46,16 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 20%;
+
 }
+
+
 
 .content {
     display: flex;
-    
+    border-radius: 40px;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid red;
     background-color: whitesmoke;
     padding: 8%;
 
@@ -67,7 +70,7 @@ body {
 }
 
 .quote {
-    border: 2px solid blue;
+    
     display: flex;
     padding: 8%;
     align-items: center;
@@ -76,11 +79,14 @@ body {
     font-style: italic;
     font-weight: 800;
     background-color: #e29e77;
+    border-radius: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .sign-up-container {
     padding: 4%;
-    border: 2px dotted violet;
+    
     display: flex;
 }
 
@@ -100,6 +106,7 @@ body {
 .sign-up {
     align-items: center;
     flex: 1;
+    border-radius: 40px;
 }
 
 .footer {
@@ -107,6 +114,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: salmon;
+    border-radius: 40px;
 }
 
 
